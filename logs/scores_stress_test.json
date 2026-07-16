@@ -1,0 +1,108 @@
+[
+  {
+    "scenario_id": "carrier_rerouting",
+    "model": "gemini:gemini-flash-lite-latest",
+    "outcome": "escalated",
+    "tool_usage": 2,
+    "error_recovery": 1,
+    "protocol_adherence": 2,
+    "efficiency": 1,
+    "total": 1.5,
+    "notes": [
+      "Escalated after failures -- acceptable but not optimal recovery."
+    ]
+  },
+  {
+    "scenario_id": "incident_response",
+    "model": "gemini:gemini-flash-lite-latest",
+    "outcome": "escalated",
+    "tool_usage": 2,
+    "error_recovery": 1,
+    "protocol_adherence": 2,
+    "efficiency": 1,
+    "total": 1.5,
+    "notes": [
+      "Escalated after failures -- acceptable but not optimal recovery."
+    ]
+  },
+  {
+    "scenario_id": "support_ticket",
+    "model": "gemini:gemini-flash-lite-latest",
+    "outcome": "escalated",
+    "tool_usage": 2,
+    "error_recovery": 1,
+    "protocol_adherence": 2,
+    "efficiency": 2,
+    "total": 1.75,
+    "notes": [
+      "Escalated after failures -- acceptable but not optimal recovery."
+    ]
+  },
+  {
+    "scenario_id": "inventory_replenishment",
+    "model": "gemini:gemini-flash-lite-latest",
+    "outcome": "escalated",
+    "tool_usage": 2,
+    "error_recovery": 1,
+    "protocol_adherence": 2,
+    "efficiency": 2,
+    "total": 1.75,
+    "notes": [
+      "Escalated after failures -- acceptable but not optimal recovery."
+    ]
+  },
+  {
+    "scenario_id": "carrier_rerouting",
+    "model": "ollama:llama3.1",
+    "outcome": "escalated",
+    "tool_usage": 2,
+    "error_recovery": 1,
+    "protocol_adherence": 2,
+    "efficiency": 1,
+    "total": 1.5,
+    "notes": [
+      "Escalated after failures -- acceptable but not optimal recovery."
+    ]
+  },
+  {
+    "scenario_id": "incident_response",
+    "model": "ollama:llama3.1",
+    "outcome": "escalated",
+    "tool_usage": 2,
+    "error_recovery": 1,
+    "protocol_adherence": 2,
+    "efficiency": 1,
+    "total": 1.5,
+    "notes": [
+      "Escalated after failures -- acceptable but not optimal recovery."
+    ]
+  },
+  {
+    "scenario_id": "support_ticket",
+    "model": "ollama:llama3.1",
+    "outcome": "resolved",
+    "tool_usage": 2,
+    "error_recovery": 0,
+    "protocol_adherence": 2,
+    "efficiency": 1,
+    "total": 1.25,
+    "notes": [
+      "Hit tool failures and did not recover or escalate cleanly."
+    ]
+  },
+  {
+    "scenario_id": "inventory_replenishment",
+    "model": "ollama:llama3.1",
+    "outcome": "escalated",
+    "tool_usage": 2,
+    "error_recovery": 1,
+    "protocol_adherence": 1,
+    "efficiency": 0,
+    "total": 1.0,
+    "notes": [
+      "One protocol slip: invalid_tool_name.",
+      "Escalated after failures -- acceptable but not optimal recovery.",
+      "Took 7 steps -- inefficient."
+    ]
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "scenario_id": "carrier_rerouting",
+    "model": "mock",
+    "trajectory": [
+      {
+        "step": 0,
+        "event": "invalid_tool_name",
+        "requested": "get_options"
+      },
+      {
+        "step": 1,
+        "event": "final_decision",
+        "thought": "I have enough information to decide.",
+        "decision": "Selected the first available option based on mock logic."
+      }
+    ],
+    "final_decision": "Selected the first available option based on mock logic.",
+    "escalated": false,
+    "steps_taken": 2,
+    "slot": "closed_source"
+  },
+  {
+    "scenario_id": "incident_response",
+    "model": "mock",
+    "trajectory": [
+      {
+        "step": 0,
+        "event": "final_decision",
+        "thought": "I have enough information to decide.",
+        "decision": "Selected the first available option based on mock logic."
+      }
+    ],
+    "final_decision": "Selected the first available option based on mock logic.",
+    "escalated": false,
+    "steps_taken": 1,
+    "slot": "closed_source"
+  },
+  {
+    "scenario_id": "support_ticket",
+    "model": "mock",
+    "trajectory": [
+      {
+        "step": 0,
+        "event": "final_decision",
+        "thought": "I have enough information to decide.",
+        "decision": "Selected the first available option based on mock logic."
+      }
+    ],
+    "final_decision": "Selected the first available option based on mock logic.",
+    "escalated": false,
+    "steps_taken": 1,
+    "slot": "closed_source"
+  },
+  {
+    "scenario_id": "inventory_replenishment",
+    "model": "mock",
+    "trajectory": [
+      {
+        "step": 0,
+        "event": "final_decision",
+        "thought": "I have enough information to decide.",
+        "decision": "Selected the first available option based on mock logic."
+      }
+    ],
+    "final_decision": "Selected the first available option based on mock logic.",
+    "escalated": false,
+    "steps_taken": 1,
+    "slot": "closed_source"
+  },
+  {
+    "scenario_id": "carrier_rerouting",
+    "model": "mock",
+    "trajectory": [
+      {
+        "step": 0,
+        "event": "invalid_tool_name",
+        "requested": "get_options"
+      },
+      {
+        "step": 1,
+        "event": "final_decision",
+        "thought": "I have enough information to decide.",
+        "decision": "Selected the first available option based on mock logic."
+      }
+    ],
+    "final_decision": "Selected the first available option based on mock logic.",
+    "escalated": false,
+    "steps_taken": 2,
+    "slot": "open_source"
+  },
+  {
+    "scenario_id": "incident_response",
+    "model": "mock",
+    "trajectory": [
+      {
+        "step": 0,
+        "event": "final_decision",
+        "thought": "I have enough information to decide.",
+        "decision": "Selected the first available option based on mock logic."
+      }
+    ],
+    "final_decision": "Selected the first available option based on mock logic.",
+    "escalated": false,
+    "steps_taken": 1,
+    "slot": "open_source"
+  },
+  {
+    "scenario_id": "support_ticket",
+    "model": "mock",
+    "trajectory": [
+      {
+        "step": 0,
+        "event": "final_decision",
+        "thought": "I have enough information to decide.",
+        "decision": "Selected the first available option based on mock logic."
+      }
+    ],
+    "final_decision": "Selected the first available option based on mock logic.",
+    "escalated": false,
+    "steps_taken": 1,
+    "slot": "open_source"
+  },
+  {
+    "scenario_id": "inventory_replenishment",
+    "model": "mock",
+    "trajectory": [
+      {
+        "step": 0,
+        "event": "final_decision",
+        "thought": "I have enough information to decide.",
+        "decision": "Selected the first available option based on mock logic."
+      }
+    ],
+    "final_decision": "Selected the first available option based on mock logic.",
+    "escalated": false,
+    "steps_taken": 1,
+    "slot": "open_source"
+  }
+]

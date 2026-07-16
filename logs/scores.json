@@ -1,0 +1,116 @@
+[
+  {
+    "scenario_id": "carrier_rerouting",
+    "model": "mock",
+    "outcome": "resolved",
+    "tool_usage": 0,
+    "error_recovery": 2,
+    "protocol_adherence": 1,
+    "efficiency": 2,
+    "total": 1.25,
+    "notes": [
+      "Reached a final decision without a single successful tool call -- likely guessed.",
+      "One protocol slip: invalid_tool_name.",
+      "No injected tool failures this run."
+    ]
+  },
+  {
+    "scenario_id": "incident_response",
+    "model": "mock",
+    "outcome": "resolved",
+    "tool_usage": 0,
+    "error_recovery": 2,
+    "protocol_adherence": 2,
+    "efficiency": 2,
+    "total": 1.5,
+    "notes": [
+      "Reached a final decision without a single successful tool call -- likely guessed.",
+      "No injected tool failures this run."
+    ]
+  },
+  {
+    "scenario_id": "support_ticket",
+    "model": "mock",
+    "outcome": "resolved",
+    "tool_usage": 0,
+    "error_recovery": 2,
+    "protocol_adherence": 2,
+    "efficiency": 2,
+    "total": 1.5,
+    "notes": [
+      "Reached a final decision without a single successful tool call -- likely guessed.",
+      "No injected tool failures this run."
+    ]
+  },
+  {
+    "scenario_id": "inventory_replenishment",
+    "model": "mock",
+    "outcome": "resolved",
+    "tool_usage": 0,
+    "error_recovery": 2,
+    "protocol_adherence": 2,
+    "efficiency": 2,
+    "total": 1.5,
+    "notes": [
+      "Reached a final decision without a single successful tool call -- likely guessed.",
+      "No injected tool failures this run."
+    ]
+  },
+  {
+    "scenario_id": "carrier_rerouting",
+    "model": "mock",
+    "outcome": "resolved",
+    "tool_usage": 0,
+    "error_recovery": 2,
+    "protocol_adherence": 1,
+    "efficiency": 2,
+    "total": 1.25,
+    "notes": [
+      "Reached a final decision without a single successful tool call -- likely guessed.",
+      "One protocol slip: invalid_tool_name.",
+      "No injected tool failures this run."
+    ]
+  },
+  {
+    "scenario_id": "incident_response",
+    "model": "mock",
+    "outcome": "resolved",
+    "tool_usage": 0,
+    "error_recovery": 2,
+    "protocol_adherence": 2,
+    "efficiency": 2,
+    "total": 1.5,
+    "notes": [
+      "Reached a final decision without a single successful tool call -- likely guessed.",
+      "No injected tool failures this run."
+    ]
+  },
+  {
+    "scenario_id": "support_ticket",
+    "model": "mock",
+    "outcome": "resolved",
+    "tool_usage": 0,
+    "error_recovery": 2,
+    "protocol_adherence": 2,
+    "efficiency": 2,
+    "total": 1.5,
+    "notes": [
+      "Reached a final decision without a single successful tool call -- likely guessed.",
+      "No injected tool failures this run."
+    ]
+  },
+  {
+    "scenario_id": "inventory_replenishment",
+    "model": "mock",
+    "outcome": "resolved",
+    "tool_usage": 0,
+    "error_recovery": 2,
+    "protocol_adherence": 2,
+    "efficiency": 2,
+    "total": 1.5,
+    "notes": [
+      "Reached a final decision without a single successful tool call -- likely guessed.",
+      "No injected tool failures this run."
+    ]
+  }
+]
